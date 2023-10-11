@@ -1,0 +1,47 @@
+MERN PROJECT
+
+==>install react 
+npx create-react-app my-app
+
+==>install mongodb from internet if not there (not preferrable)
+->add its path 'C:\Program Files\MongoDB\Server\7.0\bin' to environmental variables/path
+
+
+==>MongoDB Atlas(online UI) username and pswd: tony123
+
+->create project after logging in-> create a database in it
+
+->go to network access add current ip address
+
+->to databse ->click on cluster ->collections -> add my own data if you have -> insert documnent
+
+OR to add data from computer go to command line tools and copy the export code
+
+->to connect in project-> project -> click connect ->connect to your application-> copy the 
+connection string(add DB name before '?')
+
+
+==>create backend folder in the react app folder or outside it
+
+==>in backend open terminal
+>npm init
+>npm i express
+>npm i mongoose
+>npm install -g nodemon
+
+==>index.js and db.js in backend
+
+==>run express file 
+>nodemon .\index.js	
+
+==>use Thunder Client extension for testing purpose
+
+
+==>For valiadation purpose 
+>npm install --save express-validator
+
+==>Finally before uploading into git go to .gitignore-> /node_modules to /node_modules
+
+
+==>for encoding password 
+>npm i bcryptjs jsonwebtoken
